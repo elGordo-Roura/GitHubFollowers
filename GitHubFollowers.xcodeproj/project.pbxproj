@@ -8,17 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		03D4BE1829246B0B00DBDBCF /* GitHubFollowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */; };
-		03D4BE1A29246B0B00DBDBCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1929246B0B00DBDBCF /* ContentView.swift */; };
+		03D4BE1A29246B0B00DBDBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1929246B0B00DBDBCF /* ViewController.swift */; };
 		03D4BE1C29246B0C00DBDBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */; };
-		03D4BE1F29246B0C00DBDBCF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D4BE1E29246B0C00DBDBCF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03D4BE1429246B0B00DBDBCF /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersApp.swift; sourceTree = "<group>"; };
-		03D4BE1929246B0B00DBDBCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		03D4BE1929246B0B00DBDBCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		03D4BE1E29246B0C00DBDBCF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +50,16 @@
 			isa = PBXGroup;
 			children = (
 				03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */,
-				03D4BE1929246B0B00DBDBCF /* ContentView.swift */,
+				03D4BE1929246B0B00DBDBCF /* ViewController.swift */,
 				03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */,
-				03D4BE1D29246B0C00DBDBCF /* Preview Content */,
+				03D4BE2729246CA300DBDBCF /* Preview Content */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
 		};
-		03D4BE1D29246B0C00DBDBCF /* Preview Content */ = {
+		03D4BE2729246CA300DBDBCF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				03D4BE1E29246B0C00DBDBCF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4BE1F29246B0C00DBDBCF /* Preview Assets.xcassets in Resources */,
 				03D4BE1C29246B0C00DBDBCF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4BE1A29246B0B00DBDBCF /* ContentView.swift in Sources */,
+				03D4BE1A29246B0B00DBDBCF /* ViewController.swift in Sources */,
 				03D4BE1829246B0B00DBDBCF /* GitHubFollowersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
