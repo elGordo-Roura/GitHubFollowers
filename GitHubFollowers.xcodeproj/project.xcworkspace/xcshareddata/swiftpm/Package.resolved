@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "elgordorouratools",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:elGordo-Roura/elGordoRouraTools.git",
+      "state" : {
+        "revision" : "52d418a55573d84edf1fe7747c0ec1acec8ec969",
+        "version" : "0.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}

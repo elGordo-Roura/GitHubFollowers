@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B84C612924747A001B9936 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C602924747A001B9936 /* SearchViewController.swift */; };
+		03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C622924749D001B9936 /* FavoritesListViewController.swift */; };
+		03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C9629249871001B9936 /* FollowerListViewController.swift */; };
+		03CCA29B2924C2BB00174031 /* ElGordoRouraTools in Frameworks */ = {isa = PBXBuildFile; productRef = 03CCA29A2924C2BB00174031 /* ElGordoRouraTools */; };
+		03CCA29D2924C62F00174031 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCA29C2924C62F00174031 /* BaseViewController.swift */; };
+		03CCA29F2924C71300174031 /* RootViewOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCA29E2924C71300174031 /* RootViewOwner.swift */; };
+		03CCA2A12924C73600174031 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCA2A02924C73600174031 /* BaseView.swift */; };
+		03CCA2A32924C77200174031 /* Constructible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCA2A22924C77200174031 /* Constructible.swift */; };
+		03CCA2A52924C8DE00174031 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CCA2A42924C8DE00174031 /* SearchView.swift */; };
 		03D4BE1829246B0B00DBDBCF /* GitHubFollowersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */; };
-		03D4BE1A29246B0B00DBDBCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1929246B0B00DBDBCF /* ViewController.swift */; };
+		03D4BE1A29246B0B00DBDBCF /* CRTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D4BE1929246B0B00DBDBCF /* CRTabBarController.swift */; };
 		03D4BE1C29246B0C00DBDBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03B84C602924747A001B9936 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		03B84C622924749D001B9936 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
+		03B84C9629249871001B9936 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
+		03CCA29C2924C62F00174031 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		03CCA29E2924C71300174031 /* RootViewOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewOwner.swift; sourceTree = "<group>"; };
+		03CCA2A02924C73600174031 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		03CCA2A22924C77200174031 /* Constructible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructible.swift; sourceTree = "<group>"; };
+		03CCA2A42924C8DE00174031 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		03D4BE1429246B0B00DBDBCF /* GitHubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubFollowersApp.swift; sourceTree = "<group>"; };
-		03D4BE1929246B0B00DBDBCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03D4BE1929246B0B00DBDBCF /* CRTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRTabBarController.swift; sourceTree = "<group>"; };
 		03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -24,12 +41,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CCA29B2924C2BB00174031 /* ElGordoRouraTools in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CCA2962924C12300174031 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				03B84C602924747A001B9936 /* SearchViewController.swift */,
+				03CCA2A42924C8DE00174031 /* SearchView.swift */,
+				03B84C622924749D001B9936 /* FavoritesListViewController.swift */,
+				03B84C9629249871001B9936 /* FollowerListViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		03CCA2972924C13200174031 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				03D4BE1929246B0B00DBDBCF /* CRTabBarController.swift */,
+				03CCA29C2924C62F00174031 /* BaseViewController.swift */,
+				03CCA29E2924C71300174031 /* RootViewOwner.swift */,
+				03CCA2A02924C73600174031 /* BaseView.swift */,
+				03CCA2A22924C77200174031 /* Constructible.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		03CCA2982924C1F300174031 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */,
+				03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */,
+				03D4BE2729246CA300DBDBCF /* Preview Content */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		03D4BE0B29246B0B00DBDBCF = {
 			isa = PBXGroup;
 			children = (
@@ -49,10 +100,9 @@
 		03D4BE1629246B0B00DBDBCF /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */,
-				03D4BE1929246B0B00DBDBCF /* ViewController.swift */,
-				03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */,
-				03D4BE2729246CA300DBDBCF /* Preview Content */,
+				03CCA2982924C1F300174031 /* Support */,
+				03CCA2972924C13200174031 /* TabBarController */,
+				03CCA2962924C12300174031 /* Screens */,
 			);
 			path = GitHubFollowers;
 			sourceTree = "<group>";
@@ -80,6 +130,9 @@
 			dependencies = (
 			);
 			name = GitHubFollowers;
+			packageProductDependencies = (
+				03CCA29A2924C2BB00174031 /* ElGordoRouraTools */,
+			);
 			productName = GitHubFollowers;
 			productReference = 03D4BE1429246B0B00DBDBCF /* GitHubFollowers.app */;
 			productType = "com.apple.product-type.application";
@@ -108,6 +161,9 @@
 				Base,
 			);
 			mainGroup = 03D4BE0B29246B0B00DBDBCF;
+			packageReferences = (
+				03CCA2992924C2BB00174031 /* XCRemoteSwiftPackageReference "elGordoRouraTools" */,
+			);
 			productRefGroup = 03D4BE1529246B0B00DBDBCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,8 +189,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D4BE1A29246B0B00DBDBCF /* ViewController.swift in Sources */,
+				03CCA2A52924C8DE00174031 /* SearchView.swift in Sources */,
+				03B84C612924747A001B9936 /* SearchViewController.swift in Sources */,
+				03D4BE1A29246B0B00DBDBCF /* CRTabBarController.swift in Sources */,
+				03CCA29F2924C71300174031 /* RootViewOwner.swift in Sources */,
+				03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */,
+				03CCA2A32924C77200174031 /* Constructible.swift in Sources */,
 				03D4BE1829246B0B00DBDBCF /* GitHubFollowersApp.swift in Sources */,
+				03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */,
+				03CCA29D2924C62F00174031 /* BaseViewController.swift in Sources */,
+				03CCA2A12924C73600174031 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +326,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitHubFollowers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GitHubFollowers/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = QNA2GYCBD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -291,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"GitHubFollowers/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"GitHubFollowers/Support/Preview Content\"";
 				DEVELOPMENT_TEAM = QNA2GYCBD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -335,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		03CCA2992924C2BB00174031 /* XCRemoteSwiftPackageReference "elGordoRouraTools" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:elGordo-Roura/elGordoRouraTools.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		03CCA29A2924C2BB00174031 /* ElGordoRouraTools */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 03CCA2992924C2BB00174031 /* XCRemoteSwiftPackageReference "elGordoRouraTools" */;
+			productName = ElGordoRouraTools;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 03D4BE0C29246B0B00DBDBCF /* Project object */;
 }
