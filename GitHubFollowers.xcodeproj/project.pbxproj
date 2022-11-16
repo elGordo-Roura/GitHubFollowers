@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		035172D72925A0110074AABE /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D62925A0110074AABE /* Follower.swift */; };
 		035172D92925A0DE0074AABE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D82925A0DE0074AABE /* User.swift */; };
+		035172DC2925A4980074AABE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172DB2925A4980074AABE /* NetworkManager.swift */; };
 		03B84C612924747A001B9936 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C602924747A001B9936 /* SearchViewController.swift */; };
 		03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C622924749D001B9936 /* FavoritesListViewController.swift */; };
 		03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C9629249871001B9936 /* FollowerListViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		035172D62925A0110074AABE /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		035172D82925A0DE0074AABE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		035172DB2925A4980074AABE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		03B84C602924747A001B9936 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		03B84C622924749D001B9936 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		03B84C9629249871001B9936 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 				035172D82925A0DE0074AABE /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		035172DA2925A48E0074AABE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				035172DB2925A4980074AABE /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 		03CCA2962924C12300174031 /* Screens */ = {
@@ -120,6 +130,7 @@
 		03D4BE1629246B0B00DBDBCF /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				035172DA2925A48E0074AABE /* Managers */,
 				035172D52925A0090074AABE /* Model */,
 				03CCA2982924C1F300174031 /* Support */,
 				03CCA2972924C13200174031 /* TabBarController */,
@@ -206,6 +217,7 @@
 				03CCA2A52924C8DE00174031 /* SearchView.swift in Sources */,
 				03B84C612924747A001B9936 /* SearchViewController.swift in Sources */,
 				03D4BE1A29246B0B00DBDBCF /* CRTabBarController.swift in Sources */,
+				035172DC2925A4980074AABE /* NetworkManager.swift in Sources */,
 				03CCA29F2924C71300174031 /* RootViewOwner.swift in Sources */,
 				03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */,
 				03CCA2A32924C77200174031 /* Constructible.swift in Sources */,
