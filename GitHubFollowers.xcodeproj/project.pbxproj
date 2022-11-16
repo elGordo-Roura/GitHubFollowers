@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035172D72925A0110074AABE /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D62925A0110074AABE /* Follower.swift */; };
+		035172D92925A0DE0074AABE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D82925A0DE0074AABE /* User.swift */; };
 		03B84C612924747A001B9936 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C602924747A001B9936 /* SearchViewController.swift */; };
 		03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C622924749D001B9936 /* FavoritesListViewController.swift */; };
 		03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C9629249871001B9936 /* FollowerListViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035172D62925A0110074AABE /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		035172D82925A0DE0074AABE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		03B84C602924747A001B9936 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		03B84C622924749D001B9936 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		03B84C9629249871001B9936 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +52,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035172D429259E6F0074AABE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		035172D52925A0090074AABE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				035172D62925A0110074AABE /* Follower.swift */,
+				035172D82925A0DE0074AABE /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		03CCA2962924C12300174031 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,7 +96,7 @@
 			children = (
 				03D4BE1729246B0B00DBDBCF /* GitHubFollowersApp.swift */,
 				03D4BE1B29246B0C00DBDBCF /* Assets.xcassets */,
-				03D4BE2729246CA300DBDBCF /* Preview Content */,
+				035172D429259E6F0074AABE /* Preview Content */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -100,18 +120,12 @@
 		03D4BE1629246B0B00DBDBCF /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				035172D52925A0090074AABE /* Model */,
 				03CCA2982924C1F300174031 /* Support */,
 				03CCA2972924C13200174031 /* TabBarController */,
 				03CCA2962924C12300174031 /* Screens */,
 			);
 			path = GitHubFollowers;
-			sourceTree = "<group>";
-		};
-		03D4BE2729246CA300DBDBCF /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +211,8 @@
 				03CCA2A32924C77200174031 /* Constructible.swift in Sources */,
 				03D4BE1829246B0B00DBDBCF /* GitHubFollowersApp.swift in Sources */,
 				03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */,
+				035172D92925A0DE0074AABE /* User.swift in Sources */,
+				035172D72925A0110074AABE /* Follower.swift in Sources */,
 				03CCA29D2924C62F00174031 /* BaseViewController.swift in Sources */,
 				03CCA2A12924C73600174031 /* BaseView.swift in Sources */,
 			);
