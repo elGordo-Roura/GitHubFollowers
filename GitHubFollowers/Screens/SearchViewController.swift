@@ -45,7 +45,7 @@ extension SearchViewController: SearchViewDelegate {
     func pushFollowerListViewController(_ searchView: SearchView) {
         guard isUsernameEntered else {
             presentCRAlertOnMainThread(title: "Empty Username",
-                                       message: "Please enter a username. We need to know who to look for 😄.",
+                                       message: CRError.noUsername,
                                        buttonTitle: "Ok")
             return
         }

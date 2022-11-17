@@ -15,13 +15,14 @@ class FollowerListViewController: BaseViewController {
         view.backgroundColor = .systemBackground
         
         guard let username = username else { return }
-        NetworkManager.shared.getFollowers(for: username, page: 1) { followers, error in
-            guard let followers = followers else {
-                self.presentCRAlertOnMainThread(title: "Beep boop beep", message: error!, buttonTitle: "Ok")
-                return
+        NetworkManager.shared.getFollowers(for: username, page: 1) { result in
+            switch result {
+            case let .success(followers):
+                print(followers)
+                
+            case let .failure(error):
+                self.presentCRAlertOnMainThread(title: "Beep boop beep", message: error, buttonTitle: "Ok")
             }
-            
-            print(followers)
         }
     }
     

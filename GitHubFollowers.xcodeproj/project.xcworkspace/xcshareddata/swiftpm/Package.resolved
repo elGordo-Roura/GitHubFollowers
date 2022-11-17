@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:elGordo-Roura/elGordoRouraTools.git",
       "state" : {
-        "revision" : "52d418a55573d84edf1fe7747c0ec1acec8ec969",
-        "version" : "0.0.9"
+        "revision" : "0e5f74a2be73db15805d0ae9d9a1cb72b098bf34",
+        "version" : "0.1.3"
       }
     }
   ],

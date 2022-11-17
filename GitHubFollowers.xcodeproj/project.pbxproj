@@ -10,6 +10,8 @@
 		035172D72925A0110074AABE /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D62925A0110074AABE /* Follower.swift */; };
 		035172D92925A0DE0074AABE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172D82925A0DE0074AABE /* User.swift */; };
 		035172DC2925A4980074AABE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172DB2925A4980074AABE /* NetworkManager.swift */; };
+		035172E22925B2720074AABE /* FollowerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172E12925B2720074AABE /* FollowerCollectionViewCell.swift */; };
+		035172E42925B2CA0074AABE /* CRAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035172E32925B2CA0074AABE /* CRAvatarImageView.swift */; };
 		03B84C612924747A001B9936 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C602924747A001B9936 /* SearchViewController.swift */; };
 		03B84C632924749D001B9936 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C622924749D001B9936 /* FavoritesListViewController.swift */; };
 		03B84C9729249871001B9936 /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B84C9629249871001B9936 /* FollowerListViewController.swift */; };
@@ -28,6 +30,8 @@
 		035172D62925A0110074AABE /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		035172D82925A0DE0074AABE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		035172DB2925A4980074AABE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		035172E12925B2720074AABE /* FollowerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCollectionViewCell.swift; sourceTree = "<group>"; };
+		035172E32925B2CA0074AABE /* CRAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAvatarImageView.swift; sourceTree = "<group>"; };
 		03B84C602924747A001B9936 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		03B84C622924749D001B9936 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 		03B84C9629249871001B9936 /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +80,22 @@
 				035172DB2925A4980074AABE /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		035172DD2925AAF40074AABE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		035172E02925B2590074AABE /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				035172E12925B2720074AABE /* FollowerCollectionViewCell.swift */,
+				035172E32925B2CA0074AABE /* CRAvatarImageView.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		03CCA2962924C12300174031 /* Screens */ = {
@@ -130,6 +150,8 @@
 		03D4BE1629246B0B00DBDBCF /* GitHubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				035172E02925B2590074AABE /* Custom Views */,
+				035172DD2925AAF40074AABE /* Utilities */,
 				035172DA2925A48E0074AABE /* Managers */,
 				035172D52925A0090074AABE /* Model */,
 				03CCA2982924C1F300174031 /* Support */,
@@ -226,6 +248,8 @@
 				035172D92925A0DE0074AABE /* User.swift in Sources */,
 				035172D72925A0110074AABE /* Follower.swift in Sources */,
 				03CCA29D2924C62F00174031 /* BaseViewController.swift in Sources */,
+				035172E42925B2CA0074AABE /* CRAvatarImageView.swift in Sources */,
+				035172E22925B2720074AABE /* FollowerCollectionViewCell.swift in Sources */,
 				03CCA2A12924C73600174031 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
